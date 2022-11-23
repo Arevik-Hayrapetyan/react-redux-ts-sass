@@ -1,0 +1,38 @@
+@import '../../globalStyles.scss';
+
+.navbarContainer {
+  // background-color: green;
+  height: 13vh;
+  display: flex;
+  align-items: center;
+}
+.categories {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+}
+
+.categories li {
+  margin-right: 10px;
+  font-weight: 700;
+  color: #dea5a4;
+  cursor: pointer;
+}
+
+.categories li:last-child {
+  margin-right: 0;
+}
+
+.heading {
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+
+.underline {
+  border: 2px solid black;
+}
+
+.categories li:hover{
+  text-decoration: underline !important;
+  color: "red" !important;
+}
