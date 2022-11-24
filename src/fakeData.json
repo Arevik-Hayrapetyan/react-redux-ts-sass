@@ -1,0 +1,59 @@
+[
+  {
+    "id":1,
+    "name":"Illustration",
+    "category":"popular",
+    "lessonsCount":24,
+    "duration":134
+  },
+  {
+    "id":2,
+    "name":"Graphic design",
+    "category":"popular",
+    "lessonsCount":24,
+    "duration":134
+  },
+  {
+    "id":3,
+    "name":"Graphic design",
+    "category":"popular",
+    "lessonsCount":24,
+    "duration":134
+  },
+  {
+    "id":4,
+    "name":"Favorite product",
+    "category":"favorite",
+    "lessonsCount":24,
+    "duration":134
+  },
+  {
+    "id":5,
+    "name":"Favorite example",
+    "category":"favorite",
+    "lessonsCount":24,
+    "duration":134
+  },
+  {
+    "id":6,
+    "name":"New example1",
+    "category":"new",
+    "lessonsCount":24,
+    "duration":134
+  },
+  {
+    "id":7,
+    "name":"New example2",
+    "category":"new",
+    "lessonsCount":24,
+    "duration":134
+  },
+  {
+    "id":8,
+    "name":"New example3",
+    "category":"new",
+    "lessonsCount":24,
+    "duration":134
+  }
+
+]

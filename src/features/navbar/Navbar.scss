@@ -17,6 +17,7 @@
   font-weight: 700;
   color: #dea5a4;
   cursor: pointer;
+  padding-bottom: 7px;
 }
 
 .categories li:last-child {
@@ -28,11 +29,21 @@
   letter-spacing: 2px;
 }
 
-.underline {
-  border: 2px solid black;
+.navItem {
+  position: relative;
 }
 
-.categories li:hover{
-  text-decoration: underline !important;
-  color: "red" !important;
+.navItem:hover:after {
+  position: absolute;
+  content: '';
+  border-bottom: #763d6e 2px solid;
+  position: absolute;
+  width: 15px;
+  height: 4px;
+
+  bottom: 0;
+  left: 35%;
+}
+.navItem:hover {
+  color: #763d6e;
 }
