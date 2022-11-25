@@ -5,11 +5,17 @@
   height: 13vh;
   display: flex;
   align-items: center;
+  position: fixed;
+  top: 0;
+  width: 85vw;
+
 }
+
 .categories {
   list-style: none;
   display: flex;
   margin-left: auto;
+  align-items: center;
 }
 
 .categories li {
@@ -36,8 +42,7 @@
 .navItem:hover:after {
   position: absolute;
   content: '';
-  border-bottom: #763d6e 2px solid;
-  position: absolute;
+  border-bottom: #c66cba 2px solid;
   width: 15px;
   height: 4px;
 
@@ -45,5 +50,16 @@
   left: 35%;
 }
 .navItem:hover {
-  color: #763d6e;
+  color: #c66cba;
+}
+
+@media screen and (max-width: 1036px) {
+  .navbarContainer{
+    width: 79vw;
+  }
+}
+@media screen and (max-width: 754px) {
+  .navbarContainer{
+    width: 73vw;
+  }
 }
