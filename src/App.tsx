@@ -1,4 +1,3 @@
-// import { Counter } from './features/counter/Counter'
 import { Cards } from './features/cards/Cards'
 import './App.scss'
 import Sidebar from './features/sidebar/Sidebar'

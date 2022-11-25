@@ -16,14 +16,11 @@ svg {
   margin-top: 10px;
 }
 
-
-
 .svgContainer {
   position: relative;
-  // background-color: aqua;
 }
-.svgContainer:first-child{
-margin-top: 90px;
+.svgContainer:first-child {
+  margin-top: 90px;
 }
 
 .svgItem:hover::after {
@@ -35,9 +32,8 @@ margin-top: 90px;
   height: 22px;
   width: 10px;
   right: 137%;
-  top:42%;
- 
+  top: 42%;
 }
-.svgItem{
+.svgItem {
   cursor: pointer;
 }

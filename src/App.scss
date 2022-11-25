@@ -1,18 +1,16 @@
 .App {
-  background-color: #fbeff1 ;
-
+  background-color: #fbeff1;
 }
 
-.wrapper{
+.wrapper {
   padding-left: 60px;
   padding-right: 60px;
   margin-left: 7%;
 }
 
 @media screen and (max-width: 764px) {
-  .wrapper{
+  .wrapper {
     margin-left: 10%;
-    padding-right:27px ;
+    padding-right: 27px;
   }
 }
-

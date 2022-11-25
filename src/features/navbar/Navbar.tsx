@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import { useAppDispatch } from '../../app/hooks'
 import { useAppSelector } from '../../app/hooks'
 import { selectFilteredData } from '../../store/slices/cardsSlice'
@@ -11,7 +10,7 @@ function Navbar() {
 
   function handleFilter(searchedCategory: string) {
     dispatch(filterData(searchedCategory))
-    console.log(data, "data")
+    console.log(data, 'data')
   }
   return (
     <div className="navbarContainer">

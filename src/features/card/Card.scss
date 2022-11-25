@@ -1,8 +1,4 @@
-
-
 .cardContainer {
- 
-  // background-color: yellow;
   margin-bottom: 20px;
   padding: 20px;
   height: 300px;
@@ -11,24 +7,24 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  color:#fff;
+  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.cardContainer:first-child{
+.cardContainer:first-child {
   margin-top: 141px;
 }
 
-.infoContainer{
+.infoContainer {
   display: flex;
   justify-content: space-between;
 }
 
-.square{
+.square {
   width: 60px;
   height: 60px;
-  background:#f2c5c5;
+  background: #f2c5c5;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,7 +33,7 @@
   margin-left: 20px;
 }
 
-.triangleRight{
+.triangleRight {
   width: 0;
   height: 0;
   border-top: 7px solid transparent;

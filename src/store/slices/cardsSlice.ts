@@ -19,7 +19,6 @@ const initialState: FilteredCardsState ={ cards:[...jsonData], filteredCards:[]}
 export const cardsSlice = createSlice({
   name: 'counter',
   initialState,
-  // The `reducers` field lets us define reducers and generate associated actions
   reducers: {
     filterData: (state, action: PayloadAction<string>) => {
       const filteredData = state.cards.filter(item => item.category === action.payload)

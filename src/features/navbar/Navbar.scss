@@ -8,7 +8,6 @@
   position: fixed;
   top: 0;
   width: 85vw;
-
 }
 
 .categories {
@@ -54,12 +53,12 @@
 }
 
 @media screen and (max-width: 1036px) {
-  .navbarContainer{
+  .navbarContainer {
     width: 79vw;
   }
 }
 @media screen and (max-width: 754px) {
-  .navbarContainer{
+  .navbarContainer {
     width: 73vw;
   }
 }

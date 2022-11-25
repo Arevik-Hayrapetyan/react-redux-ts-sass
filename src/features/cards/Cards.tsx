@@ -6,7 +6,6 @@ import { selectFilteredData } from '../../store/slices/cardsSlice'
 import { filterData } from '../../store/slices/cardsSlice'
 import './Cards.scss'
 
-
 export function Cards() {
   const dispatch = useAppDispatch()
   const data = useAppSelector(selectFilteredData)
@@ -15,9 +14,11 @@ export function Cards() {
     dispatch(filterData('popular'))
   }, [])
 
-  return <div className="cardsContainer">
-    {
-      data.map(item => <Card {...item} key={item.id}/>)
-    }
-  </div>
+  return (
+    <div className="cardsContainer">
+      {data.map((item) => (
+        <Card {...item} key={item.id} />
+      ))}
+    </div>
+  )
 }

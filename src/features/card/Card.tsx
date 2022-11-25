@@ -18,17 +18,17 @@ const Card: React.FC<Props> = ({
 }) => {
   return (
     <Fragment>
-      <div className='cardContainer'>
-      <div className="infoContainer">
-        <div>
-          <h4>{name}</h4>
-          <span>{lessonsCount} lessons</span>
+      <div className="cardContainer">
+        <div className="infoContainer">
+          <div>
+            <h4>{name}</h4>
+            <span>{lessonsCount} lessons</span>
+          </div>
+          <span>{duration} min</span>
         </div>
-        <span>{duration} min</span>
-      </div>
-      <div className='square'>
-        <div className='triangleRight '></div>
-      </div>
+        <div className="square">
+          <div className="triangleRight "></div>
+        </div>
       </div>
     </Fragment>
   )
